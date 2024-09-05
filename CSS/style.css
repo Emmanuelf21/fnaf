@@ -84,12 +84,16 @@ body{
 .secao-lista-fnafs{
     margin-left: 50px;
 }
-.secao-lista-fnafs h3{
+.secao-lista-fnafs span h3{
     color: white;
+}
+.lista-fnafs{
+    width: 500px;
 }
 .lista-fnafs li{
     text-decoration: none;
     color: white;
+    margin-bottom: 10px;
 }
 .lista-fnafs li a{
     text-decoration: none;
@@ -102,6 +106,17 @@ body{
     background: linear-gradient(to right, rgb(245, 188, 81), rgba(255, 166, 0, 0));
 }
 
+.secao-lista-fnafs span{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.secao-lista-fnafs span p{
+    float: right;
+    width: 200px;
+    color: white;
+}
 /* Rodapé */
 .rodape{
     width: 100%;
