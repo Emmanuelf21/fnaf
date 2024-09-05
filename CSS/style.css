@@ -113,7 +113,8 @@ body{
 }
 
 .secao-lista-fnafs span p{
-    float: right;
+    position: relative;
+    left: 200px;
     width: 200px;
     color: white;
 }
