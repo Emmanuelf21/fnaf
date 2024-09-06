@@ -2,10 +2,14 @@
     width: 80%;
     margin: auto;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sobre-jogos article h2{
     color: wheat;
+    border-bottom: 1px solid wheat;
 }
 .jogos-img-direita, .jogos-img-esquerda{
     display: flex;
@@ -17,9 +21,12 @@
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.103);
+    border-radius: 10px;
 }
 
 .jogos-img-direita img, .jogos-img-esquerda img{
     width: 300px;
-    
+    border-radius: 5px;
 }
