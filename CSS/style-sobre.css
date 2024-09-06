@@ -1,0 +1,25 @@
+.sobre-jogos{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.sobre-jogos article h2{
+    color: wheat;
+}
+.jogos-img-direita, .jogos-img-esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jogos-img-direita p, .jogos-img-esquerda p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jogos-img-direita img, .jogos-img-esquerda img{
+    width: 300px;
+    
+}
