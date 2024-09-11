@@ -122,6 +122,17 @@ header{
     width: 200px;
     color: white;
 }
+.gif_freddy{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.gif_freddy img{
+    width: 200px;
+    height: 200px;
+}
+
 /* Rodapé */
 .rodape{
     width: 100%;
