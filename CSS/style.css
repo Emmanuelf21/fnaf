@@ -122,15 +122,19 @@ header{
     width: 200px;
     color: white;
 }
+
+/* Gif do final da página */
 .gif_freddy{
     width: 200px;
-    height: 200px;
+    height: 250px;
     margin: auto;
 }
 
 .gif_freddy img{
     width: 200px;
     height: 200px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 100px 20px rgba(76, 0, 255, 0.621);
 }
 
 /* Rodapé */
