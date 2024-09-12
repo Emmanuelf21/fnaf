@@ -110,13 +110,13 @@ header{
     background: linear-gradient(to right, rgb(245, 188, 81), rgba(255, 166, 0, 0));
 }
 
-.secao-lista-fnafs span{
+.secao-lista-fnafs aside{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-.secao-lista-fnafs span p{
+.secao-lista-fnafs aside p{
     position: relative;
     left: 200px;
     width: 200px;
